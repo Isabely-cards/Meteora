@@ -1,4 +1,4 @@
-import logoMeteora from "/assets/images/logo-meteora.png";
+import logoMeteora from "../../../../public/assets/images/logo-meteora.png";
 
 export default function Logo () {
     return(
