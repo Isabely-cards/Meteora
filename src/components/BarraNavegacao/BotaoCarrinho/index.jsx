@@ -1,4 +1,4 @@
-import imagemCarrinho from '../../../assets/cart.svg'
+import imagemCarrinho from '../../../../public/assets/cart.svg'
 
 export default function BotaoCarrinho({ className, quantidadeProdutos }) {
     const classesComuns = "btn ms-3";
