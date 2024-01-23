@@ -1,5 +1,7 @@
 import Titulo from "../Titulo";
 import Botao from '../Botao'
+import ListaProdutosCarrinho from '../ListaProdutosCarrinho'
+import TotalCarrinho from  '../CarrinhoSuspenso/TotalCarrinho'
 export default function CarrinhoSuspenso() {
   return (
     <div
