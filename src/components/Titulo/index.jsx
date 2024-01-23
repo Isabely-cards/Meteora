@@ -1,0 +1,11 @@
+export default function Titulo ({ children, classes, element, ...rest })  {
+  const Element = element || "h2";
+  return (
+    <Element
+      className={classes ? classes : "text-center fw-semibold my-3 my-xl-5"}
+      {...rest}
+    >
+      {children}
+    </Element>
+  );
+};
