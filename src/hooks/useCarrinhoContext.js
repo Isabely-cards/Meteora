@@ -1,6 +1,5 @@
-import { useContext, useMemo } from "react";
-import { CarrinhoContext } from "@/context/CarrinhoContext";
-import { useEffect } from "react";
+import { useContext } from "react";
+import { CarrinhoContext } from "../context/CarrinhoContext.jsx";
 import {
   ADD_PRODUTO,
   REMOVE_PRODUTO,
