@@ -9,8 +9,7 @@ import Botao from "../Botao";
 export default function BarraNavegacao() {
     const location = useLocation();
     const ehAPaginaCarrinho = location.pathname === "/carrinho";
-    //const { quantidade } = useCarrinhoContext();
-    const quantidade = 1
+    const { quantidade } = useCarrinhoContext();
     return (
         <header>
             <nav className="navbar navbar-expand-md bg-black navbar-dark">
